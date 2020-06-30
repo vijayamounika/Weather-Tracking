@@ -21,9 +21,11 @@ function App(){
 
     const responseGoogle = (response) => {
       console.log(response);
-      history.push('/Dashboard')
+      history.push('/Dashboard');
       
     }
+
+    
 
     return (
       <div className="App">
@@ -50,9 +52,9 @@ function App(){
     );
   
 }
-function Dashboard(){
 
-}
+
+
 
 export default App;
 
